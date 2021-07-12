@@ -1,7 +1,9 @@
-baseURL: http://hamishweir.uk/
+baseURL: https://signal32.github.io/
 languageCode: en-us
 theme: "PaperMod"
 title: Hamish Weir
+
+publishDir: ".."
 
 outputs:
     home:
