@@ -36,7 +36,7 @@ jobs:
         run: cd main && hugo
 
       - name: Copy files
-        run: cp -rf main/public/* gh-pages/
+        run: cp -rf main/* gh-pages/
 
       - name: Commit changes
         run: |
