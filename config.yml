@@ -3,7 +3,7 @@ languageCode: en-us
 theme: "PaperMod"
 title: Hamish Weir
 
-publishDir: ".."
+publishDir: "public"
 
 outputs:
     home:
