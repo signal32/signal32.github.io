@@ -33,7 +33,9 @@ jobs:
           path: gh-pages
 
       - name: Hugo Build
-        run: cd main && hugo
+        run: | 
+          cd main && hugo
+          dir
 
       - name: Copy files
         run: cp -rf main/* gh-pages/
